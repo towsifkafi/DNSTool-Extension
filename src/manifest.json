@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "DNSTool",
+    "version": "0.1.2",
+    "description": "A chrome extension that quickly finds all DNS records of any specified domain, helping to diagnose and resolve issues.",
+    "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+      "default_icon": {
+          "16": "icon.png",
+          "24": "icon.png",
+          "32": "icon.png"
+      },
+      "default_title": "DNSTool",
+      "default_popup": "pages/main.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "run_at": "document_start",
+      "js": ["pages/js/thirdparty/jquery-3.6.3.min.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["pages/js/thirdparty/jquery-3.6.3.min.js"],
+      "matches": [ "https://*/*" ]
+    }
+  ]
+}
