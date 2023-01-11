@@ -19,8 +19,8 @@ This extension should work on any Chromium based browsers (Hopefully..)
 ## Screenshots
 **\*Tested on Brave Browser**
 <p float="left">
-  <img src="assets/Screenshot-1.png" width="200" />
-  <img src="assets/Screenshot-2.png" width="200" />
-  <img src="assets/Screenshot-3.png" width="200" />
-  <img src="assets/Screenshot-4.png" width="200" />
+  <img src="assets/Screenshot-1.png" width="300" />
+  <img src="assets/Screenshot-2.png" width="300" />
+  <img src="assets/Screenshot-3.png" width="300" />
+  <img src="assets/Screenshot-4.png" width="300" />
 </p>
